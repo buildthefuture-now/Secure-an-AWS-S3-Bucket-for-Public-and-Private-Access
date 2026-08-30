@@ -1,12 +1,15 @@
 # Secure-an-AWS-S3-Bucket-for-Public-and-Private-Access
+
 A secure AWS storage architecture to locked-down S3 buckets, CloudFront via Origin Access Control (OAC), dynamic pre-signed URLs, and continuous CloudTrail auditing. Designed for safe public content delivery and strict data privacy.
 AWS S3 Secure Architecture with CloudFront and Origin Access Control
 A step-by-step guide to create a private Amazon S3 bucket, block all public access, and serve content securely through CloudFront with Origin Access Control (OAC) and CloudTrail monitoring.
 
 Context
+
 Organizations need to serve static content and files from Amazon S3 while preventing accidental public exposure and maintaining complete audit trails of data access. This guide walks through securing S3 buckets behind CloudFront using Origin Access Control (OAC), ensuring only authenticated CloudFront distributions can access your data, and implementing continuous monitoring with CloudTrail. It's designed for AWS users of any skill level who want security without complexity.
 
 Prerequisites
+
 AWS Account with appropriate IAM permissions (S3, CloudFront, CloudTrail, CloudWatch
 AWS CLI v2.x or higher (optional, for pre-signed URLs)
 AWS Console access (all steps work through the web interface)
@@ -15,6 +18,7 @@ Installation
 No software installation is required. All configuration happens in the AWS Console.
 
 Usage
+
 Create and Secure your S3 Bucket
 Create Bucket
 1.	Go to S3 Create bucket
@@ -125,8 +129,10 @@ Configure Log Events
 6.	Click Next
 
 Contributing
+
 PRs and bug reports welcome. This is a living guide; if you find outdated AWS console steps, incorrect CLI syntax, or missing security best practices, please open an issue or submit a PR with corrections.
 
 License
+
 This guide is released under the MIT License. Use, modify, and distribute freely with attribution.
 See LICENSE file for full details.
