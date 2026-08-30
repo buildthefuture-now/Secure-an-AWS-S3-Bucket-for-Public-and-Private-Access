@@ -20,6 +20,7 @@ No software installation is required. All configuration happens in the AWS Conso
 Usage
 
 Create and Secure your S3 Bucket
+
 Create Bucket
 1.	Go to S3 Create bucket
 2.	Enter bucket name (my-secure-bucket-12345)
